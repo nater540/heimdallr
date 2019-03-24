@@ -1,0 +1,6 @@
+--no-private --protected app/**/*.rb lib/**/*.rb
+--exclude lib/generators/heimdallr/templates
+--embed-mixin ClassMethods
+--markup-provider=redcarpet
+--markup=markdown
+--readme README.md

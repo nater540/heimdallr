@@ -1,0 +1,24 @@
+en:
+  errors:
+    missing_auth_header: 'Missing Authorization header.'
+    unauthorized: 'Unauthorized.'
+
+  token:
+    errors:
+      generic: 'The provided JWT is invalid. Please acquire a new token and try your request again.'
+      revoked: 'This token has been revoked. Please acquire a new token and try your request again.'
+      not_before: 'The provided JWT is not valid yet and cannot be used.'
+      expired: 'The provided JWT is expired. Please acquire a new token and try your request again.'
+      not_persisted: 'Token must be persisted to the database before encoded.'
+      invalid_scopes: 'The application that owns this token unable to use following scope(s):'
+      default_token: 'Default tokens cannot be serialized or persisted.'
+      unable_to_issue: 'Unable to issue token.'
+      invalid: 'Invalid Token.'
+
+  application:
+    errors:
+      does_not_use_rsa: 'This application does not use RSA for cryptographic signing.'
+
+  jwt:
+    errors:
+      incorrect_segments: 'Not enough or too many segments.'

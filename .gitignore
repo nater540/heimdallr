@@ -1,0 +1,13 @@
+.bundle/
+.yardoc/
+.idea/
+
+.DS_Store
+
+log/*.log
+coverage/
+doc/
+pkg/
+
+spec/dummy/log/*.log
+spec/dummy/tmp/
